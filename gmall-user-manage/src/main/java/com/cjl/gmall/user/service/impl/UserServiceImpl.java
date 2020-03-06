@@ -1,12 +1,12 @@
 package com.cjl.gmall.user.service.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.cjl.gmall.bean.UserAddress;
 import com.cjl.gmall.bean.UserInfo;
 import com.cjl.gmall.service.UserService;
 import com.cjl.gmall.user.mapper.UserAddressMapper;
 import com.cjl.gmall.user.mapper.UserInfoMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 @Service

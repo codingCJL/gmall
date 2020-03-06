@@ -1,5 +1,6 @@
 package com.cjl.gmall.order.controller;
 
+import com.alibaba.dubbo.config.annotation.Reference;
 import com.cjl.gmall.bean.UserAddress;
 import com.cjl.gmall.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +13,7 @@ import java.util.List;
 @Controller
 public class OrderController {
 
-    @Autowired
+    @Reference
     private UserService userService;
 
 
